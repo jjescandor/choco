@@ -1,0 +1,92 @@
+#instructions{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+
+}
+
+#print-area{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width:600px;
+    background-color: beige;
+}
+
+form{
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+  
+label{
+    padding:10px;
+    width:250px;
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    color:black;
+    transition-duration:0.5s;
+    text-decoration: none;
+    align-items:center;
+}
+  
+.checked{
+    color:grey;
+    transition-duration:0.5s;
+    text-decoration: line-through;
+}
+  
+div{
+    display:flex;
+    width: 150px;
+    justify-content:space-between;
+    flex-direction:row;
+    align-items:center;
+}
+
+button{
+    height:2rem;
+}
+  
+  /*share recipe Button*/
+  
+a{
+    color:white; 
+    text-decoration:none;
+}
+  
+#share{
+    padding:0.5rem;
+    background-color:blue;
+    border-radius:2px;
+    border:none;
+    transition-duration:1s;
+}
+  
+#share:hover{
+    background-color:pink;
+    color:white;
+    transform: scale(1.1);
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    transition-duration:1s;
+    cursor:pointer;
+}
+  
+#share:active{
+    transform:scale(1);
+}
+  
+/*Printer*/
+  
+#printer{
+    cursor:pointer;
+}
+
+input{
+    margin-right:1rem;
+}
